@@ -83,9 +83,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'mssql',
         'NAME': 'abc_recon',
-        'USER': 'sa',  
-        'PASSWORD': 'xminau28=',
-        'HOST': 'TECH247007',  
+        'USER': 'isabiryed',  
+        'PASSWORD': 'Vp85FRFXYf2KBr@',
+        'HOST': 'abcbusinessintelligence.database.windows.net',  
         'PORT': '',  
         'OPTIONS': {
             'trusted_connection': 'yes',  
