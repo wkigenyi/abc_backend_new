@@ -69,23 +69,15 @@ WSGI_APPLICATION = 'abc_recon.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-""" DATABASES = {
-    
-     'default':{
-         'ENGINE':'django.db.backends.mysql',
-         'NAME':'abc_recon',
-         'USER':'root',
-         'PASSWORD':'mysql'
-     }
-} """
+
 
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
         'NAME': 'abc_recon',
-        'USER': 'isabiryed',  
-        'PASSWORD': 'Vp85FRFXYf2KBr@',
-        'HOST': 'abcbusinessintelligence.database.windows.net',  
+        'USER': 'sa',  
+        'PASSWORD': 'xminau28=',
+        'HOST': 'TECH247007',  
         'PORT': '',  
         'OPTIONS': {
             'trusted_connection': 'yes',  

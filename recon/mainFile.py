@@ -218,6 +218,7 @@ def reconcileMain(path, bank_code,user):
             exceptions_feedback = update_exception_flag(exceptions, server, database, username, password,bank_code)
             # else:
             #     exceptions_feedback = "No exceptions to update."
+
                 
             insert_recon_stats(
                 bank_code, user, len(reconciled_data), len(succunreconciled_data), 
